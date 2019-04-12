@@ -1,7 +1,7 @@
 # PythonCLTables
 A simple tool for creating tables inside the command line.
 
-![SampleOutput](screenshot.png)
+![SampleOutput](screenshot.jpg)
 
 
 ## Usage
