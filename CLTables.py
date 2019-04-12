@@ -45,12 +45,3 @@ class CLTable:
                 rowString += " " + self.values[rowIndex][columnIndex] + " "*(len(self.columnNames[columnIndex])-len(self.values[rowIndex][columnIndex])) + " |"
             print(rowString)
             print(rowSplitString)
-
-
-
-
-
-#TEST
-matrix = [["hallo111222", "hallo12", "hallo133333333333"], ["hallo21", "hallo2222", "hallo23"], ["hallo31", "hallo32", "hallo33"]]
-table = CLTable(["Column1", "Column2", "Column3"], ["Row1", "Row2", "Row3Long"], matrix)
-table.printTable()
